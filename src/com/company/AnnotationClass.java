@@ -7,7 +7,7 @@ class AnnotationClass extends MyMethodFirst {
             arr = a.toString().split("@com.company.");
 
             if (arr[1].equals("Marker()")) {
-                System.out.println("Меркарная аннотация: @" + arr[1]);
+                System.out.println("Маркерная аннотация: @" + arr[1]);
             } else if (arr.length > 2){
                 System.out.println("Повторяющаяся аннотация: ");
                 String t = "";
